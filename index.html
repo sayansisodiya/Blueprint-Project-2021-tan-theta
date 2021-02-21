@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>  
+  <head>
+    <title>NASA's PotD</title>
+      <link type="text/css" href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+      <div class="body">
+        <div class="title">NASA's Picture of the Day!</div>
+          <div class="image" id="space-image"></div> 
+          <label class="description" id="image-description"></label>
+          <br><br>
+          <input class="input" id="image-request" placeholder="YYYY-MM-DD"></input>
+          <div class="specific" onclick="getSpecificImage()">Get Specific Image</div>
+          <div class="buttons">
+            <div class="today" onclick="getTodaysImage()">Today's Image</div>
+            <div class="random" onclick="getRandomImage()">Random Image</div>
+          </div>
+      </div>
+    </body>
+</html>
+<script src="script.js"></script>

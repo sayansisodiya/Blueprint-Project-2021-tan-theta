@@ -1,0 +1,115 @@
+.body {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.body {
+  /* The image used */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/80/Backgorund.gif");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: monospace;
+  text-align: center;
+}
+
+.image {
+  width:800px;
+  height:600px;
+  border-width: 20px;
+  background-position: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background-repeat: no-repeat;
+}
+
+.description {
+  width: 75%;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.input {
+  width: 30%;
+  font-size: 25px;
+  outline: none;
+  text-align: center;
+  font-family: monospace;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px rgba(36, 35, 35, 0.25);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  font-family: monospace;
+  color: #fff;
+}
+
+.specific {
+  background-color:rgba(43, 255, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  font-family: monospace;
+  width: 150px;
+  color: #fff;
+}
+.specific:hover {background-color: rgba(100, 255, 0)}
+.specific:active {
+  background-color: rgba(0, 255, 0);
+  box-shadow: 0 5px rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
+
+.today {   
+  background-color:rgba(255, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+.today:hover {background-color: rgba(255, 0, 0)}
+.today:active {
+  background-color: rgba(255, 0, 150);
+  box-shadow: 0 5px rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
+
+.random {   
+  background-color:rgba(0, 200, 255, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+.random:hover {background-color: rgba(0, 200, 255)}
+.random:active {
+  background-color: rgba(0, 100, 255);
+  box-shadow: 0 5px rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
